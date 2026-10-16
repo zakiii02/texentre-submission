@@ -1,0 +1,493 @@
+{
+  "center": [
+    {
+      "id": 1,
+      "cls": 0,
+      "box": [
+        897.5079345703125,
+        324.89141845703125,
+        955.8544921875,
+        379.93084716796875
+      ],
+      "first": 6.266666666666667,
+      "last": 11.266666666666667,
+      "hits": 73,
+      "zones": [
+        "conveyor",
+        "scanner"
+      ],
+      "contact": null,
+      "packed": null,
+      "movement": 108.71329967835486,
+      "first_box": [
+        925.41796875,
+        251.728759765625,
+        1009.408203125,
+        328.709228515625
+      ],
+      "confirmed": true,
+      "reappearance_hits": 0,
+      "possible_previous_ids": [],
+      "visual_box": [
+        879.6597595214844,
+        387.78260803222656,
+        938.0063171386719,
+        442.82203674316406
+      ],
+      "visual_last": 11.733333333333333,
+      "visual_source": "optical_flow",
+      "visual_motion": 72.27400171756744
+    },
+    {
+      "id": 2,
+      "cls": 0,
+      "box": [
+        855.2015380859375,
+        704.319580078125,
+        903.757568359375,
+        771.06298828125
+      ],
+      "first": 6.4,
+      "last": 46.6,
+      "hits": 595,
+      "zones": [
+        "bagging",
+        "scanner"
+      ],
+      "contact": {
+        "second": 45.86666666666667,
+        "bag_id": 8,
+        "source": "detector"
+      },
+      "packed": {
+        "bag_id": null,
+        "candidate_bag_ids": [
+          10,
+          11
+        ],
+        "second": 48.6,
+        "evidence": "bagging_inventory_depletion",
+        "status": "inferred_not_verified",
+        "confidence": "low"
+      },
+      "movement": 313.6308697391376,
+      "first_box": [
+        899.8369140625,
+        441.6184997558594,
+        946.3301391601562,
+        517.2257690429688
+      ],
+      "confirmed": true,
+      "reappearance_hits": 0,
+      "possible_previous_ids": [],
+      "bagging_first": 6.4,
+      "visual_box": [
+        866.3235168457031,
+        691.7878112792969,
+        914.8795471191406,
+        758.5312194824219
+      ],
+      "visual_last": 46.733333333333334,
+      "visual_source": "optical_flow",
+      "possible_successor_ids": [],
+      "visual_motion": 37.146535873413086
+    },
+    {
+      "id": 3,
+      "cls": 0,
+      "box": [
+        854.0496215820312,
+        639.48193359375,
+        929.0189819335938,
+        723.7985229492188
+      ],
+      "first": 8.4,
+      "last": 41.53333333333333,
+      "hits": 497,
+      "zones": [
+        "bagging"
+      ],
+      "contact": null,
+      "packed": {
+        "bag_id": null,
+        "candidate_bag_ids": [
+          10
+        ],
+        "second": 46.06666666666667,
+        "evidence": "bagging_inventory_depletion",
+        "status": "inferred_not_verified",
+        "confidence": "low"
+      },
+      "movement": 226.8086014488361,
+      "first_box": [
+        893.6329956054688,
+        485.13543701171875,
+        955.855224609375,
+        557.8081665039062
+      ],
+      "confirmed": true,
+      "reappearance_hits": 0,
+      "possible_previous_ids": [],
+      "bagging_first": 8.4,
+      "visual_box": [
+        732.8668212890625,
+        586.7075805664062,
+        807.836181640625,
+        671.024169921875
+      ],
+      "visual_last": 44.0,
+      "visual_source": "optical_flow",
+      "possible_successor_ids": [
+        9
+      ],
+      "visual_motion": 264.8930490016937
+    },
+    {
+      "id": 4,
+      "cls": 0,
+      "box": [
+        832.89404296875,
+        609.7260131835938,
+        931.2702026367188,
+        705.749755859375
+      ],
+      "first": 9.133333333333333,
+      "last": 41.733333333333334,
+      "hits": 486,
+      "zones": [
+        "bagging",
+        "scanner"
+      ],
+      "contact": {
+        "second": 32.06666666666667,
+        "bag_id": 8,
+        "source": "detector"
+      },
+      "packed": {
+        "bag_id": null,
+        "candidate_bag_ids": [
+          10
+        ],
+        "second": 46.06666666666667,
+        "evidence": "bagging_inventory_depletion",
+        "status": "inferred_not_verified",
+        "confidence": "low"
+      },
+      "movement": 457.2475775058518,
+      "first_box": [
+        874.0614624023438,
+        386.1781311035156,
+        961.1258544921875,
+        476.4878845214844
+      ],
+      "confirmed": true,
+      "reappearance_hits": 0,
+      "possible_previous_ids": [],
+      "bagging_first": 9.133333333333333,
+      "visual_box": [
+        713.7725524902344,
+        576.3241271972656,
+        812.1487121582031,
+        672.3478698730469
+      ],
+      "visual_last": 43.93333333333333,
+      "visual_source": "optical_flow",
+      "possible_successor_ids": [
+        9
+      ],
+      "visual_motion": 249.50827753543854
+    },
+    {
+      "id": 5,
+      "cls": 0,
+      "box": [
+        849.2811279296875,
+        573.9937133789062,
+        924.01806640625,
+        645.6864624023438
+      ],
+      "first": 12.133333333333333,
+      "last": 16.466666666666665,
+      "hits": 63,
+      "zones": [
+        "bagging"
+      ],
+      "contact": null,
+      "packed": {
+        "bag_id": null,
+        "candidate_bag_ids": [
+          8
+        ],
+        "second": 23.0,
+        "evidence": "bagging_inventory_depletion",
+        "status": "inferred_not_verified",
+        "confidence": "low"
+      },
+      "movement": 118.87350927232839,
+      "first_box": [
+        874.074951171875,
+        477.12249755859375,
+        944.6314697265625,
+        561.073486328125
+      ],
+      "confirmed": true,
+      "reappearance_hits": 0,
+      "possible_previous_ids": [],
+      "bagging_first": 12.133333333333333,
+      "visual_box": [
+        843.0553894042969,
+        586.6467895507812,
+        917.7923278808594,
+        658.3395385742188
+      ],
+      "visual_last": 24.466666666666665,
+      "visual_source": "optical_flow",
+      "possible_successor_ids": [],
+      "visual_motion": 20.493437102239113
+    },
+    {
+      "id": 6,
+      "cls": 0,
+      "box": [
+        688.7468872070312,
+        516.51123046875,
+        795.6107788085938,
+        614.186767578125
+      ],
+      "first": 12.466666666666667,
+      "last": 20.4,
+      "hits": 60,
+      "zones": [
+        "bagging",
+        "scanner"
+      ],
+      "contact": null,
+      "packed": {
+        "bag_id": null,
+        "candidate_bag_ids": [
+          8
+        ],
+        "second": 23.0,
+        "evidence": "bagging_inventory_depletion",
+        "status": "inferred_not_verified",
+        "confidence": "low"
+      },
+      "movement": 371.80033015753037,
+      "first_box": [
+        882.3440551757812,
+        483.2709045410156,
+        946.0367431640625,
+        532.5751953125
+      ],
+      "confirmed": true,
+      "reappearance_hits": 0,
+      "possible_previous_ids": [],
+      "bagging_first": 12.466666666666667,
+      "visual_box": [
+        637.5228576660156,
+        450.49278259277344,
+        744.3867492675781,
+        548.1683197021484
+      ],
+      "visual_last": 21.4,
+      "visual_source": "optical_flow",
+      "possible_successor_ids": [],
+      "visual_motion": 349.5141246318817
+    },
+    {
+      "id": 7,
+      "cls": 0,
+      "box": [
+        890.5469360351562,
+        344.03192138671875,
+        956.6883544921875,
+        395.3145751953125
+      ],
+      "first": 13.533333333333333,
+      "last": 13.666666666666666,
+      "hits": 3,
+      "zones": [
+        "conveyor",
+        "scanner"
+      ],
+      "contact": null,
+      "packed": null,
+      "movement": 5.457663882920405,
+      "first_box": [
+        893.6726684570312,
+        339.84881591796875,
+        962.022216796875,
+        393.06689453125
+      ],
+      "confirmed": true,
+      "reappearance_hits": 0,
+      "possible_previous_ids": [],
+      "visual_box": [
+        870.38916015625,
+        424.8783721923828,
+        936.5305786132812,
+        476.16102600097656
+      ],
+      "visual_last": 14.4,
+      "visual_source": "optical_flow",
+      "visual_motion": 90.15431070327759
+    },
+    {
+      "id": 8,
+      "cls": 1,
+      "box": [
+        963.7921752929688,
+        580.1129150390625,
+        1071.667724609375,
+        746.84619140625
+      ],
+      "first": 22.866666666666667,
+      "last": 59.93333333333333,
+      "hits": 470,
+      "zones": [
+        "bagging"
+      ],
+      "contact": null,
+      "packed": null,
+      "movement": 928.3099528453939,
+      "first_box": [
+        873.4881591796875,
+        491.67486572265625,
+        992.9850463867188,
+        595.2304077148438
+      ],
+      "confirmed": true,
+      "reappearance_hits": 0,
+      "possible_previous_ids": [],
+      "bagging_first": 22.866666666666667
+    },
+    {
+      "id": 9,
+      "cls": 0,
+      "box": [
+        751.5738525390625,
+        568.70556640625,
+        800.4984130859375,
+        650.8161010742188
+      ],
+      "first": 42.06666666666667,
+      "last": 43.93333333333333,
+      "hits": 25,
+      "zones": [
+        "bagging"
+      ],
+      "contact": null,
+      "packed": null,
+      "movement": 173.21192732152022,
+      "first_box": [
+        751.03125,
+        533.6529541015625,
+        874.7783813476562,
+        638.7733764648438
+      ],
+      "confirmed": true,
+      "reappearance_hits": 0,
+      "possible_previous_ids": [
+        3,
+        4
+      ],
+      "bagging_first": 42.06666666666667,
+      "visual_box": [
+        742.95361328125,
+        566.59521484375,
+        791.878173828125,
+        648.7057495117188
+      ],
+      "visual_last": 44.6,
+      "visual_source": "optical_flow",
+      "visual_motion": 37.17664110660553
+    },
+    {
+      "id": 10,
+      "cls": 1,
+      "box": [
+        972.4144897460938,
+        537.8577270507812,
+        1063.392333984375,
+        624.3324584960938
+      ],
+      "first": 45.93333333333333,
+      "last": 59.93333333333333,
+      "hits": 197,
+      "zones": [
+        "bagging"
+      ],
+      "contact": null,
+      "packed": null,
+      "movement": 123.29994270200733,
+      "first_box": [
+        949.894287109375,
+        539.7604370117188,
+        1064.927734375,
+        622.5890502929688
+      ],
+      "confirmed": true,
+      "reappearance_hits": 0,
+      "possible_previous_ids": [],
+      "bagging_first": 45.93333333333333
+    },
+    {
+      "id": 11,
+      "cls": 1,
+      "box": [
+        861.4652099609375,
+        534.342529296875,
+        1005.6271362304688,
+        676.6405639648438
+      ],
+      "first": 46.4,
+      "last": 59.93333333333333,
+      "hits": 170,
+      "zones": [
+        "bagging"
+      ],
+      "contact": null,
+      "packed": null,
+      "movement": 161.52743847827944,
+      "first_box": [
+        902.6879272460938,
+        563.5994262695312,
+        1051.7176513671875,
+        650.11669921875
+      ],
+      "confirmed": true,
+      "reappearance_hits": 0,
+      "possible_previous_ids": [],
+      "bagging_first": 46.4
+    },
+    {
+      "id": 12,
+      "cls": 1,
+      "box": [
+        845.7052612304688,
+        634.9469604492188,
+        926.879150390625,
+        708.7070922851562
+      ],
+      "first": 46.93333333333333,
+      "last": 46.93333333333333,
+      "hits": 1,
+      "zones": [
+        "bagging"
+      ],
+      "contact": null,
+      "packed": null,
+      "movement": 0.0,
+      "first_box": [
+        845.7052612304688,
+        634.9469604492188,
+        926.879150390625,
+        708.7070922851562
+      ],
+      "confirmed": false,
+      "reappearance_hits": 0,
+      "possible_previous_ids": [],
+      "bagging_first": 46.93333333333333
+    }
+  ]
+}

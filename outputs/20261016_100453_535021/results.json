@@ -1,0 +1,59 @@
+{
+  "session_start_seconds": 6.0,
+  "session_end_seconds": 60.0,
+  "last_analyzed_seconds": 59.93333333333333,
+  "analyzed_frames": 810,
+  "session_completed": true,
+  "video_played_until_seconds": 60.0,
+  "lanes": {
+    "center": {
+      "conveyor_at_start": 0,
+      "conveyor_unique": 2,
+      "scanner_unique": 5,
+      "bagging_area_unique": 5,
+      "bagged_items_estimate": 5,
+      "bags_used_unique": 3,
+      "bags_present_at_end": 3,
+      "retail_ids": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "excluded_fragment_ids": [
+        9
+      ],
+      "bagged_ids": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "missing_without_packing_evidence": [],
+      "zone_ids": {
+        "conveyor": [
+          1,
+          7
+        ],
+        "scanner": [
+          1,
+          2,
+          4,
+          6,
+          7
+        ],
+        "bagging": [
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    }
+  }
+}

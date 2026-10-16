@@ -1,0 +1,177 @@
+{
+  "center": [
+    {
+      "type": "zone_entry",
+      "id": 1,
+      "zone": "conveyor",
+      "second": 6.266666666666667
+    },
+    {
+      "type": "zone_entry",
+      "id": 2,
+      "zone": "scanner",
+      "second": 6.4
+    },
+    {
+      "type": "zone_entry",
+      "id": 2,
+      "zone": "bagging",
+      "second": 6.4
+    },
+    {
+      "type": "zone_entry",
+      "id": 1,
+      "zone": "scanner",
+      "second": 8.0
+    },
+    {
+      "type": "zone_entry",
+      "id": 3,
+      "zone": "bagging",
+      "second": 8.4
+    },
+    {
+      "type": "zone_entry",
+      "id": 4,
+      "zone": "scanner",
+      "second": 9.133333333333333
+    },
+    {
+      "type": "zone_entry",
+      "id": 4,
+      "zone": "bagging",
+      "second": 9.133333333333333
+    },
+    {
+      "type": "zone_entry",
+      "id": 5,
+      "zone": "bagging",
+      "second": 12.133333333333333
+    },
+    {
+      "type": "zone_entry",
+      "id": 6,
+      "zone": "bagging",
+      "second": 12.466666666666667
+    },
+    {
+      "type": "zone_entry",
+      "id": 7,
+      "zone": "conveyor",
+      "second": 13.533333333333333
+    },
+    {
+      "type": "zone_entry",
+      "id": 7,
+      "zone": "scanner",
+      "second": 13.533333333333333
+    },
+    {
+      "type": "zone_entry",
+      "id": 6,
+      "zone": "scanner",
+      "second": 14.466666666666667
+    },
+    {
+      "type": "identity_relinked",
+      "id": 6,
+      "second": 20.066666666666666
+    },
+    {
+      "type": "zone_entry",
+      "id": 8,
+      "zone": "bagging",
+      "second": 22.866666666666667
+    },
+    {
+      "type": "packing_inferred",
+      "id": 5,
+      "bag_id": null,
+      "candidate_bag_ids": [
+        8
+      ],
+      "second": 23.0,
+      "evidence": "bagging_inventory_depletion",
+      "status": "inferred_not_verified",
+      "confidence": "low"
+    },
+    {
+      "type": "packing_inferred",
+      "id": 6,
+      "bag_id": null,
+      "candidate_bag_ids": [
+        8
+      ],
+      "second": 23.0,
+      "evidence": "bagging_inventory_depletion",
+      "status": "inferred_not_verified",
+      "confidence": "low"
+    },
+    {
+      "type": "identity_relinked",
+      "id": 8,
+      "second": 29.4
+    },
+    {
+      "type": "zone_entry",
+      "id": 9,
+      "zone": "bagging",
+      "second": 42.06666666666667
+    },
+    {
+      "type": "zone_entry",
+      "id": 10,
+      "zone": "bagging",
+      "second": 45.93333333333333
+    },
+    {
+      "type": "packing_inferred",
+      "id": 3,
+      "bag_id": null,
+      "candidate_bag_ids": [
+        10
+      ],
+      "second": 46.06666666666667,
+      "evidence": "bagging_inventory_depletion",
+      "status": "inferred_not_verified",
+      "confidence": "low"
+    },
+    {
+      "type": "packing_inferred",
+      "id": 4,
+      "bag_id": null,
+      "candidate_bag_ids": [
+        10
+      ],
+      "second": 46.06666666666667,
+      "evidence": "bagging_inventory_depletion",
+      "status": "inferred_not_verified",
+      "confidence": "low"
+    },
+    {
+      "type": "zone_entry",
+      "id": 11,
+      "zone": "bagging",
+      "second": 46.4
+    },
+    {
+      "type": "zone_entry",
+      "id": 12,
+      "zone": "bagging",
+      "second": 46.93333333333333
+    },
+    {
+      "type": "packing_inferred",
+      "id": 2,
+      "bag_id": null,
+      "candidate_bag_ids": [
+        10,
+        11
+      ],
+      "second": 48.6,
+      "evidence": "bagging_inventory_depletion",
+      "status": "inferred_not_verified",
+      "confidence": "low"
+    }
+  ]
+}
